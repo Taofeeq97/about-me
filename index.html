@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Sanni Abdulateef</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1e3c72, #2a5298 50%, #6dd5ed);
+      padding: 20px;
+      color: #333;
+    }
+
+    .card {
+      background: #fff;
+      max-width: 520px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .banner {
+      background: linear-gradient(90deg, #1e3c72, #2a5298);
+      height: 110px;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      margin: -60px auto 0;
+      border-radius: 50%;
+      background: #f5b041;
+      border: 5px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .content { padding: 20px 30px 35px; }
+
+    h1 { font-size: 1.8rem; color: #1e3c72; margin-top: 10px; }
+
+    .subtitle {
+      color: #2a5298;
+      font-weight: 600;
+      margin: 6px 0 18px;
+    }
+
+    p.bio { line-height: 1.6; color: #555; margin-bottom: 25px; }
+
+    h2 {
+      font-size: 1.1rem;
+      color: #1e3c72;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .hobbies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      list-style: none;
+    }
+
+    .hobbies li {
+      background: #eaf2ff;
+      color: #1e3c72;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .hobbies li:hover {
+      transform: translateY(-3px);
+      background: #f5b041;
+      color: #fff;
+    }
+
+    footer {
+      margin-top: 28px;
+      font-size: 0.85rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="banner"></div>
+    <div class="avatar">SA</div>
+    <div class="content">
+      <h1>Sanni Abdulateef</h1>
+      <div class="subtitle">100 Level Student &middot; Afe Babalola University, Ado-Ekiti</div>
+
+      <p class="bio">
+        Hello! 👋 I'm Sanni Abdulateef, a curious and driven 100 level student at
+        Afe Babalola University, Ado-Ekiti. I love learning new things, meeting
+        new people, and building skills that will help me grow both academically
+        and personally.
+      </p>
+
+      <h2>My Hobbies</h2>
+      <ul class="hobbies">
+        <li>⚽ Football</li>
+        <li>💻 Coding</li>
+        <li>📚 Reading</li>
+        <li>🎵 Music</li>
+        <li>🎮 Gaming</li>
+        <li>✈️ Travelling</li>
+      </ul>
+
+      <footer>&copy; 2026 Sanni Abdulateef</footer>
+    </div>
+  </div>
+</body>
+</html>
